@@ -1,0 +1,110 @@
+{
+  "theme": "dark",
+  "archetype": "5",
+  "archetype_name": "Jewel & Luxury",
+  "domain": "Premium Property Protection Platform",
+  "target_audience": "NRIs in UAE, UK, USA, Canada, Singapore, Australia",
+  "colors": {
+    "primary": "#F59E0B",
+    "primary_hover": "#D97706",
+    "secondary": "#10B981",
+    "background": "#0A192F",
+    "surface": "#112240",
+    "surface_glass": "rgba(10, 25, 47, 0.7)",
+    "text_primary": "#F8FAFC",
+    "text_secondary": "#64748B",
+    "border": "rgba(255, 255, 255, 0.1)",
+    "success": "#10B981",
+    "warning": "#F59E0B",
+    "error": "#EF4444"
+  },
+  "typography": {
+    "font_family": {
+      "heading": "Outfit, sans-serif",
+      "body": "Manrope, sans-serif",
+      "accent": "Playfair Display, serif"
+    },
+    "scale": {
+      "h1": "text-5xl md:text-6xl tracking-tight font-light",
+      "h2": "text-4xl md:text-5xl tracking-tight font-light",
+      "h3": "text-2xl md:text-3xl tracking-tight",
+      "h4": "text-xl md:text-2xl",
+      "body_large": "text-lg md:text-xl leading-relaxed",
+      "body": "text-base leading-relaxed",
+      "small": "text-sm uppercase tracking-widest"
+    }
+  },
+  "layout": {
+    "spacing": {
+      "section_padding": "py-24 md:py-32",
+      "container": "max-w-7xl mx-auto px-6 md:px-8",
+      "gap_large": "gap-12 md:gap-16",
+      "gap_medium": "gap-8"
+    },
+    "grids": {
+      "bento": "grid grid-cols-1 md:grid-cols-8 lg:grid-cols-12 gap-6",
+      "dashboard": "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4"
+    },
+    "surfaces": {
+      "glass": "bg-[#0A192F]/70 backdrop-blur-xl border border-white/10",
+      "card": "bg-[#112240] border border-white/5 shadow-2xl rounded-2xl",
+      "dashboard_widget": "bg-[#112240] border border-white/5 rounded-xl p-6"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#F59E0B] text-[#0A192F] hover:bg-[#D97706] font-semibold px-8 py-4 rounded-lg transition-all duration-300 shadow-[0_0_20px_rgba(245,158,11,0.3)] hover:shadow-[0_0_30px_rgba(245,158,11,0.5)]",
+      "secondary": "bg-transparent border border-white/20 text-white hover:bg-white/5 font-semibold px-8 py-4 rounded-lg transition-all duration-300",
+      "outline": "border border-[#F59E0B]/50 text-[#F59E0B] hover:bg-[#F59E0B]/10 font-semibold px-8 py-4 rounded-lg transition-all duration-300"
+    },
+    "header": "fixed top-0 w-full z-50 bg-[#0A192F]/80 backdrop-blur-xl border-b border-white/10 transition-all duration-300",
+    "inputs": "bg-[#0A192F] border border-white/20 text-white focus:border-[#F59E0B] focus:ring-1 focus:ring-[#F59E0B] rounded-lg p-3 w-full"
+  },
+  "media": {
+    "images": [
+      {
+        "category": "logo",
+        "url": "https://customer-assets.emergentagent.com/job_3789c7cc-db36-4cd7-85b8-1438aea538da/artifacts/vdyi61mx_logo.PNG",
+        "description": "KEEPER Brand Logo"
+      },
+      {
+        "category": "hero_background",
+        "url": "https://static.prod-images.emergentagent.com/jobs/3789c7cc-db36-4cd7-85b8-1438aea538da/images/d05d47c301d19c79c6d29317a6452532730c1919f4e012d10fdd2445a8e234cb.png",
+        "description": "Abstract elegant geometric background in deep navy blue with subtle gold lines"
+      },
+      {
+        "category": "problem_section",
+        "url": "https://images.unsplash.com/photo-1744310620482-2dc64a28b8e8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjV8MHwxfHNlYXJjaHwzfHxwcmVtaXVtJTIwbW9kZXJuJTIwaG9tZSUyMGV4dGVyaW9yJTIwc3Vuc2V0fGVufDB8fHx8MTc3NDcwOTc2M3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Luxury modern home exterior reflecting sunset"
+      },
+      {
+        "category": "solution_shield",
+        "url": "https://static.prod-images.emergentagent.com/jobs/3789c7cc-db36-4cd7-85b8-1438aea538da/images/33dd7594541c12fe8e85c169ce823a4cccb6af021ae31f007c13c9ef099f4fe7.png",
+        "description": "Minimalist glass shield icon with gold and emerald green accents"
+      },
+      {
+        "category": "coverage_map",
+        "url": "https://static.prod-images.emergentagent.com/jobs/3789c7cc-db36-4cd7-85b8-1438aea538da/images/00aa251c08766e3127b05e9f54fe7f410ca4b93aa43c266d61965311d9ae3a66.png",
+        "description": "World map abstract dot matrix glowing in emerald green and gold"
+      },
+      {
+        "category": "premium_property",
+        "url": "https://static.prod-images.emergentagent.com/jobs/3789c7cc-db36-4cd7-85b8-1438aea538da/images/1e18efceff2f5db2214febb115de92c4d6c31ab077b8ec1fd5ca13b7f4c10498.png",
+        "description": "Luxurious modern villa in India glowing at twilight"
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Strictly follow the color palette and typography rules. DO NOT use generic fonts like Inter for headings. Use Outfit for headings and Manrope for body text.",
+    "Implement the 'Demo Dashboard Visual' as an interactive-looking React component using Recharts to show property valuation trends, not just an image. Wrap it in a 'Control Room' grid layout.",
+    "The Hero section must have a very premium, high-trust feel. Use the 'hero_background' image with a dark overlay (`bg-[#0A192F]/80` or gradient) to ensure text legibility.",
+    "The 'Features Grid' should utilize a Bento layout style, mixing large and small cards.",
+    "Use Emerald Green (#10B981) specifically for Trust Signals (checkmarks, verified badges, secure icons).",
+    "Use Gold (#F59E0B) for Primary CTAs and highlighting premium tiers in the Pricing section.",
+    "All cards must have a subtle border (`border-white/5` or `border-white/10`) to provide crisp edges in dark mode.",
+    "Every page section must include `data-testid` attributes for automated testing.",
+    "Do not build HTML-based complex components. Use Shadcn UI primitives for Accordions (FAQ), Tabs, Cards, and Forms.",
+    "Add 'lucide-react' icons to complement features and dashboard UI.",
+    "Use framer-motion for subtle entrance animations (fade up on scroll) for luxury feel."
+  ]
+}
