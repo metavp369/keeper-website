@@ -23,7 +23,7 @@ Build a premium website for KEEPER — an NRI Property Protection Platform that 
 - SEO-optimized page structure
 
 ## What's Been Implemented (Dec 2025)
-### Phase 1 - Core Website ✅
+### Phase 1 - Core Website
 - **Homepage**: Hero, Logo Bar, Problem, Solution, How It Works (5 steps), Features Grid (8 capabilities), Trust Architecture, Why KEEPER comparison table, Coverage Map, Pricing Preview, Testimonial, Final CTA
 - **How It Works Page**: 5-step journey, Remote Approval Model, Reporting Cycle
 - **Services Page**: 8 service categories with detailed descriptions
@@ -32,39 +32,50 @@ Build a premium website for KEEPER — an NRI Property Protection Platform that 
 - **Contact Page**: 3-step consultation form → MongoDB, sidebar with trust signals
 - **FAQ Page**: 5 categories with search functionality, Shadcn Accordion
 - **Demo Dashboard**: Interactive tabs (Overview, Alerts, Approvals), Recharts valuation chart, property health scores
-- **Header**: Sticky nav with gold CTA, mobile hamburger menu
-- **Footer**: 4-column layout with social links
+
+### Phase 2 - Full Sitemap Expansion
+- **About Us Page**: Founding story, Trust Philosophy, Operational Model triad, Values
+- **Legal Support Page**: 6 legal services, Legal Philosophy, Important Disclaimers
+- **City Response Network**: 4 active cities, team profiles, response protocols, expansion roadmap
+- **Partner With Us Page**: 5 partner types, application form → MongoDB
+- **Trust & Security Page**: 6 security sections, Infrastructure card
+
+### Shared Components
+- **Header**: Sticky nav with 7 links + gold CTA, mobile hamburger menu
+- **Footer**: 4-column layout with all page links, social icons, contact email
+
+### Contact Info
+- Name: Amit Kumar Singh
+- Mobile: +91 98922 17345
+- Email: amit.singh@keeper.expert
 
 ### Backend Endpoints
-- POST /api/consultations — Save consultation requests
+- POST /api/consultations — Save consultation & partner requests
 - GET /api/consultations — Retrieve consultations
 - POST /api/newsletter — Subscribe to newsletter
 
 ## Prioritized Backlog
 
 ### P0 (Next Priority)
-- Blog/Insights page with CMS-like article management
-- About Us page
-- Legal Support page
-- City Response Network page
+- Blog/Insights page with sample articles
+- SEO meta tags and Open Graph data per page
+- Contact form email notifications
 
 ### P1
-- Trust & Security page
-- Partner With Us page
-- Contact form email notifications (SendGrid/Resend integration)
-- SEO meta tags and schema markup
-
-### P2
-- User authentication for client dashboard
-- Real dashboard functionality (not just demo)
 - Blog article CRUD from admin panel
 - Analytics integration (GA4, Mixpanel)
 - A/B testing for CTAs
 - Exit-intent popup for lead capture
 
+### P2
+- User authentication for client dashboard
+- Real dashboard functionality (not just demo)
+- Mobile app considerations
+- Internationalization for multi-language support
+
 ## Next Action Items
-1. Build remaining pages (About, Legal Support, City Network, Partner, Trust & Security)
-2. Add email notifications for consultation form submissions
-3. Implement blog/articles system with admin management
-4. Add SEO meta tags and Open Graph data per page
-5. Implement newsletter lead magnet (downloadable NRI property checklist)
+1. Build Blog/Insights page with article cards and categories
+2. Add SEO meta tags per page (react-helmet)
+3. Implement email notifications for consultation form (SendGrid/Resend)
+4. Add newsletter lead magnet (downloadable NRI property checklist)
+5. Set up analytics tracking
