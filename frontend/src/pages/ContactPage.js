@@ -312,15 +312,15 @@ export default function ContactPage() {
                 <GlassCard className="p-6">
                   <h4 className="text-[#F8FAFC] font-medium mb-4">Alternative Contact</h4>
                   <div className="space-y-3">
-                    <a href="mailto:consult@keeper.in" className="flex items-center gap-3 text-sm text-[#64748B] hover:text-[#F59E0B] transition-colors">
+                    <a href="mailto:amit.singh@keeper.expert" className="flex items-center gap-3 text-sm text-[#64748B] hover:text-[#F59E0B] transition-colors">
                       <Mail size={16} className="text-[#F59E0B]" />
-                      consult@keeper.in
+                      amit.singh@keeper.expert
                     </a>
-                    <a href="#" className="flex items-center gap-3 text-sm text-[#64748B] hover:text-[#F59E0B] transition-colors">
+                    <a href="tel:+919892217345" className="flex items-center gap-3 text-sm text-[#64748B] hover:text-[#F59E0B] transition-colors">
                       <Phone size={16} className="text-[#F59E0B]" />
-                      +91-xxx-xxx-xxxx
+                      +91 98922 17345
                     </a>
-                    <a href="#" className="flex items-center gap-3 text-sm text-[#64748B] hover:text-[#F59E0B] transition-colors">
+                    <a href="https://wa.me/919892217345" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-sm text-[#64748B] hover:text-[#F59E0B] transition-colors">
                       <MessageCircle size={16} className="text-[#F59E0B]" />
                       WhatsApp Chat
                     </a>

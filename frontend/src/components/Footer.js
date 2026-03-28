@@ -81,8 +81,8 @@ export default function Footer() {
             </ul>
             <div className="mt-6 p-4 rounded-xl bg-white/5 border border-white/10">
               <p className="text-xs text-[#64748B]">Need help?</p>
-              <a href="mailto:consult@keeper.in" className="text-sm text-[#F59E0B] font-medium hover:underline">
-                consult@keeper.in
+              <a href="mailto:amit.singh@keeper.expert" className="text-sm text-[#F59E0B] font-medium hover:underline">
+                amit.singh@keeper.expert
               </a>
             </div>
           </div>
