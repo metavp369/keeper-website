@@ -16,6 +16,7 @@ import LegalSupportPage from "@/pages/LegalSupportPage";
 import CityResponsePage from "@/pages/CityResponsePage";
 import PartnerPage from "@/pages/PartnerPage";
 import TrustSecurityPage from "@/pages/TrustSecurityPage";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import { Toaster } from "@/components/ui/sonner";
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
           </Routes>
         </main>
         <Footer />
+        <WhatsAppButton />
         <Toaster position="top-right" />
       </BrowserRouter>
     </div>
