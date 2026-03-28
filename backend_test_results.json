@@ -1,0 +1,84 @@
+{
+  "timestamp": "2026-03-28T15:09:06.757467",
+  "tests_run": 4,
+  "tests_passed": 4,
+  "success_rate": 100.0,
+  "results": [
+    {
+      "test": "Root API Endpoint",
+      "method": "GET",
+      "endpoint": "",
+      "expected_status": 200,
+      "actual_status": 200,
+      "success": true,
+      "response_size": 32,
+      "response_data": {
+        "message": "KEEPER API running"
+      }
+    },
+    {
+      "test": "Consultation Submission",
+      "method": "POST",
+      "endpoint": "consultations",
+      "expected_status": 200,
+      "actual_status": 200,
+      "success": true,
+      "response_size": 410,
+      "response_data": {
+        "id": "c4331e5c-1222-4d3e-b975-de5d1c77afe5",
+        "full_name": "Test User",
+        "email": "test@example.com",
+        "phone": "+971501234567",
+        "country": "UAE",
+        "property_cities": "Delhi, Mumbai",
+        "property_type": "Apartment",
+        "challenge": "Preventive protection",
+        "preferred_time": "Weekdays after 7 PM IST",
+        "how_heard": "Testing",
+        "message": "This is a test consultation request",
+        "status": "new",
+        "created_at": "2026-03-28T15:09:06.449871+00:00"
+      }
+    },
+    {
+      "test": "Newsletter Subscription",
+      "method": "POST",
+      "endpoint": "newsletter",
+      "expected_status": 200,
+      "actual_status": 200,
+      "success": true,
+      "response_size": 130,
+      "response_data": {
+        "id": "8688903d-998d-475a-806e-053233af1019",
+        "email": "test_150906@example.com",
+        "subscribed_at": "2026-03-28T15:09:06.583323+00:00"
+      }
+    },
+    {
+      "test": "Get Consultations",
+      "method": "GET",
+      "endpoint": "consultations",
+      "expected_status": 200,
+      "actual_status": 200,
+      "success": true,
+      "response_size": 412,
+      "response_data": [
+        {
+          "id": "c4331e5c-1222-4d3e-b975-de5d1c77afe5",
+          "full_name": "Test User",
+          "email": "test@example.com",
+          "phone": "+971501234567",
+          "country": "UAE",
+          "property_cities": "Delhi, Mumbai",
+          "property_type": "Apartment",
+          "challenge": "Preventive protection",
+          "preferred_time": "Weekdays after 7 PM IST",
+          "how_heard": "Testing",
+          "message": "This is a test consultation request",
+          "status": "new",
+          "created_at": "2026-03-28T15:09:06.449871+00:00"
+        }
+      ]
+    }
+  ]
+}
