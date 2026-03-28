@@ -8,9 +8,10 @@ const navLinks = [
   { label: "How It Works", path: "/how-it-works" },
   { label: "Services", path: "/services" },
   { label: "For NRIs", path: "/for-nris" },
+  { label: "Legal Support", path: "/legal-support" },
+  { label: "Cities", path: "/cities" },
   { label: "Pricing", path: "/pricing" },
-  { label: "Demo", path: "/demo" },
-  { label: "FAQ", path: "/faq" },
+  { label: "About", path: "/about" },
 ];
 
 export default function Header() {

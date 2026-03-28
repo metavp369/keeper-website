@@ -37,10 +37,16 @@ export default function Footer() {
           <div data-testid="footer-services">
             <h4 className="text-sm font-semibold text-[#F8FAFC] uppercase tracking-widest mb-5">Services</h4>
             <ul className="space-y-3">
-              {["Property Protection", "Legal Support", "Document Vault", "Inspections", "City Response Network"].map((item) => (
-                <li key={item}>
-                  <Link to="/services" className="text-sm text-[#64748B] hover:text-[#F59E0B] transition-colors duration-300">
-                    {item}
+              {[
+                { label: "Property Protection", path: "/services" },
+                { label: "Legal Support", path: "/legal-support" },
+                { label: "Document Vault", path: "/services" },
+                { label: "Inspections", path: "/services" },
+                { label: "City Response Network", path: "/cities" },
+              ].map(({ label, path }) => (
+                <li key={label}>
+                  <Link to={path} className="text-sm text-[#64748B] hover:text-[#F59E0B] transition-colors duration-300">
+                    {label}
                   </Link>
                 </li>
               ))}
@@ -52,10 +58,11 @@ export default function Footer() {
             <h4 className="text-sm font-semibold text-[#F8FAFC] uppercase tracking-widest mb-5">Company</h4>
             <ul className="space-y-3">
               {[
+                { label: "About Us", path: "/about" },
                 { label: "How It Works", path: "/how-it-works" },
                 { label: "For NRIs", path: "/for-nris" },
+                { label: "Partner With Us", path: "/partner" },
                 { label: "Pricing", path: "/pricing" },
-                { label: "FAQ", path: "/faq" },
                 { label: "Contact", path: "/contact" },
               ].map(({ label, path }) => (
                 <li key={label}>
@@ -71,7 +78,18 @@ export default function Footer() {
           <div data-testid="footer-support">
             <h4 className="text-sm font-semibold text-[#F8FAFC] uppercase tracking-widest mb-5">Support</h4>
             <ul className="space-y-3">
-              {["Trust & Security", "Privacy Policy", "Terms of Service", "Cookie Policy"].map((item) => (
+              {[
+                { label: "FAQ", path: "/faq" },
+                { label: "Trust & Security", path: "/trust-security" },
+                { label: "Demo Dashboard", path: "/demo" },
+              ].map(({ label, path }) => (
+                <li key={label}>
+                  <Link to={path} className="text-sm text-[#64748B] hover:text-[#F59E0B] transition-colors duration-300">
+                    {label}
+                  </Link>
+                </li>
+              ))}
+              {["Privacy Policy", "Terms of Service"].map((item) => (
                 <li key={item}>
                   <a href="#" className="text-sm text-[#64748B] hover:text-[#F59E0B] transition-colors duration-300">
                     {item}

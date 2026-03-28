@@ -11,6 +11,11 @@ import ForNRIsPage from "@/pages/ForNRIsPage";
 import ContactPage from "@/pages/ContactPage";
 import FAQPage from "@/pages/FAQPage";
 import DemoDashboardPage from "@/pages/DemoDashboardPage";
+import AboutPage from "@/pages/AboutPage";
+import LegalSupportPage from "@/pages/LegalSupportPage";
+import CityResponsePage from "@/pages/CityResponsePage";
+import PartnerPage from "@/pages/PartnerPage";
+import TrustSecurityPage from "@/pages/TrustSecurityPage";
 import { Toaster } from "@/components/ui/sonner";
 
 function App() {
@@ -29,6 +34,11 @@ function App() {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/demo" element={<DemoDashboardPage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/legal-support" element={<LegalSupportPage />} />
+            <Route path="/cities" element={<CityResponsePage />} />
+            <Route path="/partner" element={<PartnerPage />} />
+            <Route path="/trust-security" element={<TrustSecurityPage />} />
           </Routes>
         </main>
         <Footer />
