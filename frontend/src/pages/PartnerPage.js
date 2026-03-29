@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-import { FadeIn, SectionLabel, SectionHeading, GlassCard } from "@/components/shared";
+import { FadeIn, SectionLabel, SectionHeading, GlassCard } from "components/shared";
 import {
   Users, Scale, Calculator, Globe, Gift, Building2,
   ArrowRight, Check, Handshake

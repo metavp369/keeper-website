@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { FadeIn, SectionLabel, SectionHeading } from "@/components/shared";
+import { FadeIn, SectionLabel, SectionHeading } from "components/shared";
 import { Search } from "lucide-react";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "components/ui/accordion";
 
 const categories = [
   {

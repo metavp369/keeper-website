@@ -1,23 +1,23 @@
-import "@/App.css";
+import "App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import ScrollToTop from "@/components/ScrollToTop";
-import HomePage from "@/pages/HomePage";
-import HowItWorksPage from "@/pages/HowItWorksPage";
-import ServicesPage from "@/pages/ServicesPage";
-import PricingPage from "@/pages/PricingPage";
-import ForNRIsPage from "@/pages/ForNRIsPage";
-import ContactPage from "@/pages/ContactPage";
-import FAQPage from "@/pages/FAQPage";
-import DemoDashboardPage from "@/pages/DemoDashboardPage";
-import AboutPage from "@/pages/AboutPage";
-import LegalSupportPage from "@/pages/LegalSupportPage";
-import CityResponsePage from "@/pages/CityResponsePage";
-import PartnerPage from "@/pages/PartnerPage";
-import TrustSecurityPage from "@/pages/TrustSecurityPage";
-import WhatsAppButton from "@/components/WhatsAppButton";
-import { Toaster } from "@/components/ui/sonner";
+import Header from "components/Header";
+import Footer from "components/Footer";
+import ScrollToTop from "components/ScrollToTop";
+import HomePage from "pages/HomePage";
+import HowItWorksPage from "pages/HowItWorksPage";
+import ServicesPage from "pages/ServicesPage";
+import PricingPage from "pages/PricingPage";
+import ForNRIsPage from "pages/ForNRIsPage";
+import ContactPage from "pages/ContactPage";
+import FAQPage from "pages/FAQPage";
+import DemoDashboardPage from "pages/DemoDashboardPage";
+import AboutPage from "pages/AboutPage";
+import LegalSupportPage from "pages/LegalSupportPage";
+import CityResponsePage from "pages/CityResponsePage";
+import PartnerPage from "pages/PartnerPage";
+import TrustSecurityPage from "pages/TrustSecurityPage";
+import WhatsAppButton from "components/WhatsAppButton";
+import { Toaster } from "components/ui/sonner";
 
 function App() {
   return (

@@ -1,4 +1,4 @@
-import { FadeIn, SectionLabel, SectionHeading, GlassCard } from "@/components/shared";
+import { FadeIn, SectionLabel, SectionHeading, GlassCard } from "components/shared";
 import { Link } from "react-router-dom";
 import {
   Lock, FileText, Eye, UserCheck, Shield, Zap,

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FadeIn, SectionLabel, SectionHeading, GlassCard } from "@/components/shared";
+import { FadeIn, SectionLabel, SectionHeading, GlassCard } from "components/shared";
 import { Heart, Shield, Eye, Users, Layers, ArrowRight, Check, Target, Lightbulb } from "lucide-react";
 
 const values = [

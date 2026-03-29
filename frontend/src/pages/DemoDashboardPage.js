@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { FadeIn, SectionLabel, SectionHeading, GlassCard } from "@/components/shared";
+import { FadeIn, SectionLabel, SectionHeading, GlassCard } from "components/shared";
 import {
   BarChart3, Bell, Shield, Eye, FileText, Scale, Clock,
   ChevronRight, ArrowRight, Building2, MapPin, Check, AlertTriangle,

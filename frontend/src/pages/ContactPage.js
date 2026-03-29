@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-import { FadeIn, SectionLabel, SectionHeading, GlassCard } from "@/components/shared";
+import { FadeIn, SectionLabel, SectionHeading, GlassCard } from "components/shared";
 import { Lock, Clock, Phone, Mail, MessageCircle, ArrowRight, Check } from "lucide-react";
 import { toast } from "sonner";
 

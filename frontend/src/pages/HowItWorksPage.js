@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FadeIn, SectionLabel, SectionHeading, GlassCard } from "@/components/shared";
+import { FadeIn, SectionLabel, SectionHeading, GlassCard } from "components/shared";
 import {
   FileText, Shield, MapPin, Eye, Zap, UserCheck, Clock,
   ChevronRight, Check, ArrowRight, Lock, BarChart3, Calendar
